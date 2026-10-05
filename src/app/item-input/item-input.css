@@ -1,0 +1,8 @@
+.item-input {
+  display: flex;
+  gap: 8px;
+}
+
+.item-input-field {
+  flex: 1;
+}
