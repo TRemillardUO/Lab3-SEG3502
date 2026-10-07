@@ -1,0 +1,5 @@
+<main class="shopping-list">
+  <h1>Liste de courses</h1>
+  <app-item-input (itemAdded)="add($event)"></app-item-input>
+  <app-item-list [items]="items" (itemRemoved)="remove($event)"></app-item-list>
+</main>

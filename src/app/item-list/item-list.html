@@ -1,0 +1,10 @@
+<ul class="item-list panel">
+  @for (item of items; track $index) {
+    <li class="item-row">
+      <span class="item-label">{{ item }}</span>
+      <button type="button" class="btn" (click)="remove($index)">Supprimer</button>
+    </li>
+  } @empty {
+    <li class="item-empty">La liste est vide.</li>
+  }
+</ul>
